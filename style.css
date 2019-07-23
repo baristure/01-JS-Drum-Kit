@@ -8,6 +8,7 @@ font-family: 'Monoton', cursive;
 html {
   font-size: 10px;
   background-image: url("https://images4.alphacoders.com/174/thumb-1920-174986.jpg");
+  background-image: center bottom no-repeat;
 }
 body,
 html {
@@ -54,7 +55,7 @@ html {
 kbd {
   display: block;
   font-size: 6rem;
-  font-family: "Faster One", sans-serif;
+  font-family: "Faster One", cursive;
   color: #d63232;
 }
 
@@ -63,7 +64,7 @@ kbd {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #fff1c1;
-  font-family: Coda;
+  font-family: "Monoton", cursive;
 }
 
 .footer {
@@ -84,17 +85,9 @@ kbd {
   margin: 0;
 }
 
-.footer p.footer-head {
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff1c1;
-  margin: 0 0 10px;
-  padding: 0;
-}
-
-.footer p.footer-head a {
+h1 {
   display: inline-block;
   line-height: 1.8;
   text-decoration: none;
-  color: inherit;
+  color: #ff0000;
 }
